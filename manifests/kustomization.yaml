@@ -27,13 +27,13 @@ resources:
 images:
 - name: clearledger/auth-service
   newName: docker.io/ghost654/clearledger-auth-service
-  newTag: 1c2cb213bb9eb664e6bae7c1391cd7a5f155b117
+  newTag: c950d00017689feeeba094e1cb906c2b4e50c79a
 - name: clearledger/frontend
   newName: docker.io/ghost654/clearledger-frontend
-  newTag: 1c2cb213bb9eb664e6bae7c1391cd7a5f155b117
+  newTag: c950d00017689feeeba094e1cb906c2b4e50c79a
 - name: clearledger/ledger-service
   newName: docker.io/ghost654/clearledger-ledger-service
-  newTag: 1c2cb213bb9eb664e6bae7c1391cd7a5f155b117
+  newTag: c950d00017689feeeba094e1cb906c2b4e50c79a
 - name: clearledger/notification-service
   newName: docker.io/ghost654/clearledger-notification-service
-  newTag: 1c2cb213bb9eb664e6bae7c1391cd7a5f155b117
+  newTag: c950d00017689feeeba094e1cb906c2b4e50c79a
