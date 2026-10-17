@@ -11,11 +11,8 @@ resources:
 - namespace.yaml
 - ingress.yaml
 - auth-service/deployment.yaml
-- auth-service/service.yaml
-- auth-service/secret.yaml
 - ledger-service/deployment.yaml
 - ledger-service/service.yaml
-- ledger-service/secret.yaml
 - notification-service/deployment.yaml
 - notification-service/service.yaml
 - frontend/deployment.yaml
@@ -23,17 +20,18 @@ resources:
 - postgres/postgres-secret.yaml
 - redis/redis.yaml
 - rbac/rbac.yaml
+- vault/rotation-cronjob.yaml
 
 images:
 - name: clearledger/auth-service
   newName: docker.io/ghost654/clearledger-auth-service
-  newTag: fe3a7d83d0c1cda6918f35209de00d55bc307362
+  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
 - name: clearledger/frontend
   newName: docker.io/ghost654/clearledger-frontend
-  newTag: fe3a7d83d0c1cda6918f35209de00d55bc307362
+  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
 - name: clearledger/ledger-service
   newName: docker.io/ghost654/clearledger-ledger-service
-  newTag: fe3a7d83d0c1cda6918f35209de00d55bc307362
+  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
 - name: clearledger/notification-service
   newName: docker.io/ghost654/clearledger-notification-service
-  newTag: fe3a7d83d0c1cda6918f35209de00d55bc307362
+  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
