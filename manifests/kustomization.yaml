@@ -11,6 +11,7 @@ resources:
 - namespace.yaml
 - ingress.yaml
 - auth-service/deployment.yaml
+- auth-service/service.yaml
 - ledger-service/deployment.yaml
 - ledger-service/service.yaml
 - notification-service/deployment.yaml
@@ -25,13 +26,13 @@ resources:
 images:
 - name: clearledger/auth-service
   newName: docker.io/ghost654/clearledger-auth-service
-  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
+  newTag: 4f8ca2373fedfc3c9743d9e74b9896f4ccb2cfc0
 - name: clearledger/frontend
   newName: docker.io/ghost654/clearledger-frontend
-  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
+  newTag: 4f8ca2373fedfc3c9743d9e74b9896f4ccb2cfc0
 - name: clearledger/ledger-service
   newName: docker.io/ghost654/clearledger-ledger-service
-  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
+  newTag: 4f8ca2373fedfc3c9743d9e74b9896f4ccb2cfc0
 - name: clearledger/notification-service
   newName: docker.io/ghost654/clearledger-notification-service
-  newTag: 666f4243d2327ba7251828d5447a90107520a9f3
+  newTag: 4f8ca2373fedfc3c9743d9e74b9896f4ccb2cfc0
